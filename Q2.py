@@ -11,4 +11,4 @@ def find_median(number:list)->float:
     else:
         return (sorted_numbers[middle-1]+sorted_numbers[middle])/2.0
 
-print(find_median([5, 6, 5, 1]))
+print(find_median([5, 6, 5, 1,6]))
